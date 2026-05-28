@@ -1,101 +1,155 @@
-# 🏙️ Dubai Real Estate Market - Power BI Project
+# 🏙️ Dubai Real Estate Market Analysis Dashboard
 
-## 📘 Project Overview
-This Power BI project provides an in-depth analysis of Dubai's real estate market using over **140,000 + property transaction records**.  
-The goal of this project is to uncover insights about property worth, rental trends, and investment patterns across different areas and project types in Dubai.
+## 📝 Project Overview
+This Power BI project analyzes Dubai’s real estate market using property transaction data.  
+The dashboard provides insights into property prices, transaction trends, premium locations, parking availability, room distribution, and investment patterns across Dubai areas.
 
-The dataset includes detailed information such as:
-- Master project name  
-- Property type and value  
-- Rent value  
-- Area and number of rooms  
-- Metro and mall proximity  
-- Parking availability  
-- Year of transaction  
+The analysis helps identify:
+- High-value real estate areas
+- Property usage distribution
+- Premium vs affordable market segments
+- Area-wise pricing trends
+- Transaction patterns and customer preferences
 
 ---
 
-## 🧩 Key Performance Indicators (KPIs)
-| KPI | Description |
-|-----|--------------|
-| **Total Property Worth** | AED 2670 Billion |
-| **Average Meter Sale Price** | AED 13.49K |
-| **Average Actual Worth** | AED 2.56 Million |
-| **Total Room Count** | 1.05 Million |
+# 📁 Files Included
+- `Dubai_Real_Estate_Data.csv` – Raw/Cleaned dataset
+- `Dubai_RealEstateDashboard.pbix` – Power BI dashboard file
+- Dashboard screenshots
 
 ---
 
-## 📊 Dashboard Insights
+# 📊 Key KPIs
 
-### 1. **Top Projects by Total Property Worth**
-- Palm Jumeirah, Burj Khalifa, and Dubai Marina top the list for property worth.
-- Premium developments dominate the high-value transaction segment.
-
-### 2. **% of Rent Transactions by Master Project**
-- DAMAC Hills, Tilal Al Ghaf, and Hadaeq Sheikh Mohammed Bin Rashid lead in rental transactions.
-- Rent demand distribution shows concentration around specific luxury communities.
-
-### 3. **Average Procedure Area by Project**
-- Palm Jabal Ali stands out with the largest average property area.
-- Industrial and investment zones have significantly smaller property footprints.
-
-### 4. **Rental Activity Over the Years**
-- Rental activities peaked between **2015–2021**, showing Dubai’s property boom period.
-- Recent fluctuations align with market adjustments and economic cycles.
-
-### 5. **Top Metro Stations by Rental Transactions**
-- Business Bay, Burj Khalifa/Dubai Mall, and Rashidiya Metro areas are the most active in rental transactions.
-- Accessibility via metro correlates with higher rental demand.
-
-### 6. **Average Property Worth vs Rent Value (Investment Correlation)**
-- Clear positive relationship between property value and rental value.
-- High-end locations yield proportionally higher rent values.
-
-### 7. **Top Malls by Property Transactions**
-- Marina Mall and Dubai Mall have the highest transaction volumes.
-- Proximity to popular malls drives property attractiveness.
-
-### 8. **Impact of Parking Availability on Rental Demand**
-- Properties **with parking** have noticeably higher rent values than those without.
-- Indicates strong tenant preference for accessible parking.
+| KPI | Value |
+|------|------|
+| Average Price Per Meter | 11.63K |
+| Average Transaction Made | 1.26M |
+| Total Amount | 10bn |
+| Total Areas | 24 |
+| Total Transactions | 8K |
 
 ---
 
-## 🧠 Tools & Technologies Used
+# 📌 Dashboard Insights
+
+## 1️⃣ Top Areas & Projects by Transaction Amount
+- **Burj Khalifa** recorded the highest transaction amount.
+- **Dubai Marina** and **Jumeirah Lakes Towers** also showed strong market activity.
+- Premium locations dominate Dubai’s real estate investment market.
+
+---
+
+## 2️⃣ Average Price Per Meter by Area
+- **Burj Khalifa** has the highest average price per meter at approximately **23K**.
+- Areas like **Business Bay**, **Palm Jumeirah**, and **Al Wasl** maintain high property values.
+- Luxury and waterfront areas show stronger pricing trends.
+
+---
+
+## 3️⃣ Property Usage Analysis
+- Residential properties account for the majority of transactions (**79%+**).
+- Commercial and hospitality properties contribute a smaller market share.
+- Industrial properties have minimal transaction volume.
+
+---
+
+## 4️⃣ Price Tier Distribution
+The market is divided into four pricing categories:
+- Premium (1M–3M)
+- Mid (500K–1M)
+- Entry (<500K)
+- Luxury (3M+)
+
+### Key Observation:
+- Premium and Mid-tier properties dominate the market.
+- Luxury properties represent a smaller but high-value segment.
+
+---
+
+## 5️⃣ Parking Availability Impact
+- Most properties include parking facilities.
+- Properties with parking show significantly higher transaction volume.
+- Parking availability strongly influences property demand.
+
+---
+
+## 6️⃣ Price Tier by Area
+- Premium and luxury properties are concentrated in:
+  - Burj Khalifa
+  - Business Bay
+  - Dubai Marina
+  - Palm Jumeirah
+- Entry-level properties appear more in developing residential zones.
+
+---
+
+## 7️⃣ Metro Accessibility Analysis
+Areas near metro stations such as:
+- Jumeirah Lakes Towers
+- Business Bay Metro Station
+- Burj Khalifa/Dubai Mall Metro
+
+show higher transaction activity and better property demand.
+
+---
+
+## 8️⃣ Rooms Distribution by Area
+- 1 B/R and 2 B/R properties dominate the market.
+- Studio apartments are highly common in central business areas.
+- Larger configurations like penthouses and 5 B/R units are limited.
+
+---
+
+# 🧠 Tools & Technologies Used
+
 | Tool | Purpose |
 |------|----------|
-| **Microsoft Power BI** | Data visualization, dashboard creation, DAX measures |
-| **Power Query Editor** | Data modeling and relationship management |
-| **DAX (Data Analysis Expressions)** | Custom calculated columns and measures for insights |
+| Microsoft Power BI | Dashboard creation and visualization |
+| Power Query | Data transformation and cleaning |
+| DAX | Calculated columns and measures |
+| Excel / CSV | Dataset storage |
 
 ---
 
-## 📁 Dataset Details
-- **Data Source:** Dubai real estate transaction dataset  
-- **File Type:** .CSV  
-- **Row Count:** 140,000+ records  
-- **File Size:** ~600 MB (uploaded via Google Drive due to GitHub file-size limit)  
-- **Access Dataset:** [🔗 Download from Google Drive](https://drive.google.com/file/d/1yyhSqthG0tRTFuC1q3pI3tT_kYPZlFpS/view?usp=drive_link)
+# 📂 Dataset Details
+
+| Detail | Information |
+|--------|-------------|
+| Dataset Type | Dubai Real Estate Transactions |
+| Format | CSV |
+| Total Records | ~8,000+ |
+| Areas Covered | 24 |
+| Metrics Included | Price, Area, Rooms, Parking, Metro Access, Property Usage |
 
 ---
 
-## 📈 Power BI Dashboard
-**Power BI File (.pbix):** [🔗 Download from Google Drive](https://drive.google.com/file/d/1GigEleLPm-d-lELX6gEefIz5Uvm6Frwg/view?usp=drive_link)
+# 📈 Dashboard Features
+- Interactive filters and slicers
+- Area-wise comparison visuals
+- KPI cards for quick insights
+- Property price segmentation
+- Metro accessibility analysis
+- Transaction forecasting visuals
 
 ---
 
-## 🏁 Conclusion
-This project demonstrates how **Power BI** can be used to analyze and visualize large-scale real estate datasets to reveal valuable market insights.  
-The analysis provides a clear view of:
-- Top-performing areas and projects  
-- Correlation between property and rental values  
-- Temporal trends and development hotspots  
-- Impact of amenities on rental performance  
-  
+# 🏁 Conclusion
+This project demonstrates how Power BI can be used to analyze and visualize real estate market trends in Dubai.
+
+The dashboard provides insights into:
+- Premium investment locations
+- Property pricing behavior
+- Transaction distribution
+- Customer preferences
+- Accessibility impact on property demand
+
+The analysis can help investors, real estate professionals, and analysts make data-driven decisions.
+
 ---
 
-### 👩‍💻 Author
+# 👩‍💻 Author
 **Shobana M**  
-📍 Chennai, India  
-🔗 [LinkedIn](https://www.linkedin.com/in/shobana-m-3542a933a)  
-📧 shobanamurugesan75@gmail.com
+📧 shobanam135@gmail.com  
+🔗 LinkedIn: https://www.linkedin.com/in/shobana-m-3542a933a
